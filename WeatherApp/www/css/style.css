@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat-Regular.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat';
+  background-image: url(../img/lethbridge.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 3.75em;
+}
+
+/* .location {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
