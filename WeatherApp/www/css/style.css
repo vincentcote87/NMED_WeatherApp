@@ -15,22 +15,71 @@ body, html {
 
 body {
   font-family: 'Montserrat';
-  background-image: url(../img/lethbridge.jpg);
+  color: #ffffff;
+  background-image: url(../img/lethbridge2.jpg);
+  /*https://commons.wikimedia.org/wiki/File:Lethbridge_High_Level.jpg*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
+.wrapper {
+  background-color: #242424;
+  opacity: 0.65;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 header {
-  margin-left: 20px;
+  margin-left: 30px;
+}
+
+#curTempIcon {
+  font-size: 1.25em;
+}
+
+.currentTempSpan {
+  margin: 10% 0px 0px 30px;
+}
+
+#temp {
+  padding-left: 15px;
+}
+
+.currentTempDescription {
+  margin: 0 30px;
 }
 
 h2 {
   font-size: 3.75em;
+  margin: 0;
 }
 
-/* .location {
+h3 {
+  margin: 0;
+}
+
+.otherInfo > i {
+  font-size: 2.5em;
+  padding: 0 10px
+}
+
+.otherInfo > span {
+  font-size: 2.5em;
+}
+
+.otherInfo {
+  padding: 8% 0;
+}
+
+.gridParent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-} */
+}
